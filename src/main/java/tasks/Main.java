@@ -11,7 +11,7 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        // Получаем два числа от пользователя
+        // Получаем числа от пользователя
         System.out.print("Введите первое число тип 'int' : ");
         int number1 = scanner.nextInt();
         System.out.print("Введите второе число тип 'int' : ");
