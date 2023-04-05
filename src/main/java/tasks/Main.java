@@ -18,13 +18,15 @@ public class Main {
         int number2 = scanner.nextInt();
         System.out.print("Введите третье число тип 'double' через запятую, пример (1,1): ");
         double numberDouble = scanner.nextDouble();
+        System.out.print("Введите четвертое отрицатедьное число тип 'int' : ");
+        int number4 = scanner.nextInt();
 
         printAddition(number1, number2);
         printMultiplication(number1, number2);
         printSubtraction(number1, number2);
         printDivision(number1, number2);
         comparisons(number1, number2);
-        outputOverflow(number1, number2);
+        outputOverflow(number1, number4);
         printCombinationDouble(number1, numberDouble);
 
     }
