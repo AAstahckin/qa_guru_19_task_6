@@ -8,7 +8,7 @@ public class BooleanOperations {
         // Задаем массив операций
         String[] booleanOperations = new String[]{">", ">=", "<", "<=", "==", "!="};
 
-        System.out.println("\nЛогические операции с числами:");
+        System.out.println("\nЛогические операции с числами: ");
 
         for (String operation : booleanOperations) {
             boolean result;
